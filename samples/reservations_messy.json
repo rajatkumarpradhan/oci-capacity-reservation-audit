@@ -1,0 +1,11 @@
+{
+  "reservations": [
+    {"name": "migration-weekend-buffer", "state": "ACTIVE", "reserved": 8, "used": 0,
+     "description": "held for the November migration", "tags": ["owner:platform"]},
+    {"name": "analytics-pool", "state": "ACTIVE", "reserved": 10, "used": 3,
+     "description": "analytics workers", "tags": ["team:analytics"]},
+    {"name": "black-friday-2025", "state": "ACTIVE", "reserved": 20, "used": 18,
+     "ends_at": "2025-12-05", "description": "seasonal peak", "tags": ["team:retail"]},
+    {"name": "adhoc-hold", "state": "ACTIVE", "reserved": 4, "used": 4}
+  ]
+}
