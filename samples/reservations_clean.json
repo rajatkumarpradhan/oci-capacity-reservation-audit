@@ -1,0 +1,8 @@
+{
+  "reservations": [
+    {"name": "web-tier-buffer", "state": "ACTIVE", "reserved": 6, "used": 5,
+     "description": "web tier headroom", "tags": ["owner:platform", "env:prod"]},
+    {"name": "batch-window", "state": "ACTIVE", "reserved": 4, "used": 4,
+     "ends_at": "2027-01-01", "description": "nightly batch", "tags": ["team:data"]}
+  ]
+}
